@@ -20,6 +20,6 @@ print "Downloading"
 
 #to download the mp3
 urllib.urlretrieve(songlist[0]+".mp3",user_input+".mp3")
-print "done"
-print songlist[0]	
+print "Done"
+print "Saved as -" + user_input + ".mp3"	
  
